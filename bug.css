@@ -1,0 +1,10 @@
+The following CSS rule attempts to style an element with an invalid or unsupported property name, leading to unexpected behavior or no effect:
+
+```css
+div {
+  font-size: 16px;
+  invalid-property: value;
+}
+```
+
+This is because `invalid-property` is not a valid CSS property.  Browsers ignore unrecognized properties, resulting in the style not being applied.
