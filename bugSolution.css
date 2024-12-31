@@ -1,0 +1,11 @@
+The solution involves replacing the invalid property name with a valid one.  For example:
+
+```css
+div {
+  font-size: 16px;
+  /* Corrected:  Using a valid property. */
+  background-color: lightblue;
+}
+```
+
+This corrected code will now apply the `background-color` style to the `div` element as expected.
